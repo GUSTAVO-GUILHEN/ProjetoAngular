@@ -1,9 +1,9 @@
-import { HttpClientModule } from '@angular/common/http'
-import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
-import{HashLocationStrategy, LocationStrategy} from '@angular/common';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
